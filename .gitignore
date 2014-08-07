@@ -1,4 +1,4 @@
 bower_components/*
 node_modules/*
 build/*
-.DSStore
+.DS_Store
