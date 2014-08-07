@@ -1,0 +1,8 @@
+<h1>To Do</h1>
+<input ng-model="taskToAdd" />
+<button ng-click="addATask(taskToAdd)" ng-model="taskToAdd">Add</button>
+<ul>
+    <li ng-repeat="task in tasks">
+        {{ task.name }} <span ng-click="removeATask($index)" ng-model="$index">X</span>
+    </li>
+</ul>
